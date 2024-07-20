@@ -23,8 +23,8 @@ SPI_DC = 9
 BACKLIGHT = 13
 
 # Screen dimensions
-WIDTH = 320
-HEIGHT = 240
+WIDTH = 240
+HEIGHT = 198
 
 buffer = Image.new("RGB", (WIDTH, HEIGHT))
 draw = ImageDraw.Draw(buffer)
